@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dailyDetailsIconContainer {
+  @apply flex pl-10 items-center pb-2;
+}
+.dailyDetailsIcon {
+  @apply pr-2 w-10;
+}
